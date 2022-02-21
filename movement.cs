@@ -4,19 +4,7 @@ using System.Linq;
 using System.Text;
 using UnityEngine;
 
-/// <summary>
-/// A simple free camera to be added to a Unity game object.
-/// 
-/// Keys:
-///	wasd / arrows	- movement
-///	q/e 			- up/down (local space)
-///	r/f 			- up/down (world space)
-///	pageup/pagedown	- up/down (world space)
-///	hold shift		- enable fast movement mode
-///	right mouse  	- enable free look
-///	mouse			- free look / rotation
-///     
-/// </summary>
+
 public class movement : MonoBehaviour
 {
     /// <summary>
