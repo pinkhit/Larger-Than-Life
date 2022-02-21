@@ -7,25 +7,16 @@ using UnityEngine;
 
 public class movement : MonoBehaviour
 {
-    /// <summary>
     /// Normal speed of camera movement.
-    /// </summary>
     public float movementSpeed = 10f;
 
-    /// <summary>
     /// Speed of camera movement when shift is held down,
-    /// </summary>
     public float fastMovementSpeed = 100f;
 
-
-    /// <summary>
     /// Amount to zoom the camera when using the mouse wheel.
-    /// </summary>
     public float zoomSensitivity = 10f;
 
-    /// <summary>
     /// Amount to zoom the camera when using the mouse wheel (fast mode).
-    /// </summary>
     public float fastZoomSensitivity = 50f;
 
  
